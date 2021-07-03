@@ -12,7 +12,7 @@ public class App {
         Bitmap newBitmap = new Bitmap(args[0], args[1]);
         newBitmap.changeColor();
         newBitmap.pinkilizedBMP();
-
+        newBitmap.grayscaleBMP();
         newBitmap.writeNewImg();
     }
 }
