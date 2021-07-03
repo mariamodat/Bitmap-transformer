@@ -1,4 +1,4 @@
-package main.java.Bitmap.transformer;
+package Bitmap.transformer;
 
 import java.util.Arrays;
 import javax.imageio.ImageIO;
@@ -11,6 +11,8 @@ public class App {
         System.out.println(Arrays.toString(args));
         Bitmap newBitmap = new Bitmap(args[0], args[1]);
         newBitmap.changeColor();
+        newBitmap.pinkilizedBMP();
+
         newBitmap.writeNewImg();
     }
 }
